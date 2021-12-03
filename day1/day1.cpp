@@ -12,7 +12,7 @@ ifstream file("day1.txt");
 int part1();
 int part2();
 
-int main (void) {
+int main(void) {
 
     while(getline(file, line)) {
         input.push_back(stoi(line));
