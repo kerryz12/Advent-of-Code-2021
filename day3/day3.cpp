@@ -131,11 +131,12 @@ int part2() {
     return b2d(stoll(keep_o[0])) * b2d(stoll(keep_co2[0]));
 }   
 
+// or just calculate it online/by hand
 int b2d(long long n)
 {
     long long num = n;
-    long long dec_value = 0;
-    long long base = 1;
+    int dec_value = 0;
+    int base = 1;
     long long temp = num;
 
     while (temp) {
