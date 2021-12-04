@@ -51,8 +51,6 @@ int part1() {
 }
 
 int part2() {
-    string oxygen = "";
-    string co2 = "";
     int zero = 0;
     int one = 0;
     vector<string> keep_o = input;
